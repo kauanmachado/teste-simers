@@ -1,0 +1,64 @@
+@source '../views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Import Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+:root {
+    --font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family-base);
+}
+
+/* Custom styles for user management */
+.avatar-sm {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Custom styles */
+.table > :not(caption) > * > * {
+    padding: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.table th {
+    font-weight: 600;
+    color: #374151;
+    background-color: #f9fafb;
+}
+
+.table td {
+    color: #4b5563;
+    vertical-align: middle;
+}
+
+.btn-light {
+    background-color: #f3f4f6;
+    border-color: #e5e7eb;
+}
+
+.btn-light:hover {
+    background-color: #e5e7eb;
+    border-color: #d1d5db;
+}
+
+.btn-light.text-danger:hover {
+    background-color: #fee2e2;
+    border-color: #fecaca;
+    color: #dc2626 !important;
+}
+
+
+

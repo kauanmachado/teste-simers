@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        // Configurações de compilação
+        "composite": true, // Habilita compilação incremental
+        "skipLibCheck": true, // Pula verificação de tipos em arquivos de biblioteca
+        "module": "ESNext", // Sistema de módulos
+        "moduleResolution": "bundler", // Resolução de módulos
+        "allowSyntheticDefaultImports": true // Permite importar módulos sem export default
+    },
+    "include": ["vite.config.ts"] // Arquivos a serem incluídos
+} 
